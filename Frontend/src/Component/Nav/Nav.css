@@ -1,5 +1,9 @@
 .nav {
-  background-color: aqua;
+  background-color: rgb(9, 226, 226);
   height: 10vh;
   width: 100%;
+  justify-content: space-evenly;
+}
+.nav-content {
+  display: inline;
 }

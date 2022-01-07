@@ -1,4 +1,5 @@
-.about {
-  background-color: burlywood;
-  height: 10vh;
+.about-main {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: cornsilk;
 }

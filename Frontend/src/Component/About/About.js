@@ -1,9 +1,10 @@
+import Title from "../UI/Title";
 import "./About.css";
 
 const About = () => {
   return (
-    <div className="about">
-      <h1>this is the about section</h1>
+    <div className="about-main">
+      <Title title="About" />
     </div>
   );
 };
