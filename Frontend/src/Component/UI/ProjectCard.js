@@ -8,9 +8,9 @@ const ProjectCard = (props) => {
       <div className="img">
         <img src={props.image}></img>
       </div>
-      <h2>{props.name}</h2>
+      <h2 className="heading">{props.name}</h2>
       <div className="projects-desc">
-        <p>{props.desc}</p>
+        <h4>{props.desc}</h4>
       </div>
     </div>
   );

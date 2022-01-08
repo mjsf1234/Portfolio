@@ -1,5 +1,23 @@
 .about-main {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background-color: cornsilk;
+  background-color: white;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.content img {
+  margin: 2rem;
+  height: 20rem;
+  object-fit: contain;
+  box-sizing: border-box;
+  border-radius: 200px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.about-title {
+  padding-top: 4rem;
+}
+.about-title h2 {
+  margin-top: 4rem;
 }

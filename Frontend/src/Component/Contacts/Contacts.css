@@ -1,4 +1,9 @@
-.contacts {
-  background-color: lightslategrey;
-  height: 10vh;
+.contacts-main {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
+}
+.contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
