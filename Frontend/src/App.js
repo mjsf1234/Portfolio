@@ -6,7 +6,7 @@ import Project from "./Component/Project/Project";
 import Skills from "./Component/Skills/Skills";
 
 import Contacts from "./Component/Contacts/Contacts";
-
+//d
 function App() {
   return (
     <div className="App">
