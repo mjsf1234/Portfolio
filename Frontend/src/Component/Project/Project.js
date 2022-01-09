@@ -7,31 +7,35 @@ const Project = () => {
   const Projects = [
     {
       id: 0,
-      name: "Food-Ordering-website",
+      name: "Food Ordering Website",
       imgUrl: "/Images/food-ordering-website.jpg",
-      desc: "this is food ordering website where you can order you desire dishes",
-      url: "https://github.com/mjsf1234/Flipr_Hackathon",
+      desc: "This is food ordering website ",
+      githuburl: "https://github.com/mjsf1234/Flipr_Hackathon",
+      projecturl: "",
     },
     {
       id: 1,
-      name: "Expense-Tracker",
+      name: "Expense Tracker",
       imgUrl: "/Images/expense-tracker.png",
-      desc: "this application will keep the track of all your entered expense",
-      url: "https://github.com/mjsf1234/Expense-Tracker",
+      desc: "This application will keep the track of all your entered expense",
+      githuburl: "https://github.com/mjsf1234/Expense-Trackers",
+      projecturl: "https://mjsf1234.github.io/Expense-Trackers/",
     },
     {
       id: 2,
-      name: "Online-booking-Sytem",
+      name: "Online Booking Sytem",
       imgUrl: "/images/online-booking.png",
-      desc: "this is online booking system where you can book our prefered time slot and you will aloted that slot and will be charged accordingly",
-      url: "https://github.com/mjsf1234/Online-Booking-System",
+      desc: "This is online booking system where you can book our prefered time slot and you will aloted that slot and will be charged accordingly",
+      githuburl: "https://github.com/mjsf1234/Online-Booking-System",
+      projecturl: "",
     },
     {
       id: 3,
       name: "Portfolio",
       imgUrl: "/Images/portfolio.png",
       desc: "This is my portfolio build on react and its show all my projects and skills thanks for visiting",
-      url: "https://github.com/mjsf1234/Portfolio",
+      githuburl: "https://github.com/mjsf1234/Portfolio",
+      projecturl: "",
     },
   ];
 
@@ -46,7 +50,8 @@ const Project = () => {
               name={e.name}
               image={e.imgUrl}
               desc={e.desc}
-              link={e.url}
+              gitlink={e.githuburl}
+              prolink={e.projecturl}
             />
           );
         })}

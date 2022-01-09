@@ -7,3 +7,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.contact-link {
+  padding: 0 4rem 0 4rem;
+}

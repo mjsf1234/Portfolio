@@ -4,10 +4,10 @@
   background-color: white;
 }
 .projects-grid {
-  padding: 2rem;
-  margin: 0 2rem 0 2rem;
+  padding: 2rem 6rem 2rem 6rem;
+
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   grid-row-gap: 2rem;
 }

@@ -1,9 +1,13 @@
 .home {
-  background-color: antiquewhite;
+  background-color: rgb(27, 23, 18);
   border-width: 6px;
-  border-color: black;
+  border-color: white;
   height: 100vh;
   width: 100%;
   text-align: center;
   margin: 0px;
+}
+.home-heading {
+  margin: auto;
+  color: white;
 }

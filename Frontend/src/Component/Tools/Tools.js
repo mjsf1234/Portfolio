@@ -4,23 +4,7 @@ import Title from "../UI/Title";
 import Card from "../UI/Card";
 
 export const Tools = () => {
-  const tools = [
-    {
-      id: 0,
-      name: "Github",
-      imgUrl: "/Images/github.png",
-    },
-    {
-      id: 1,
-      name: "Heroku",
-      imgUrl: "/Images/heroku.png",
-    },
-    {
-      id: 2,
-      name: "test",
-      imgUrl: "",
-    },
-  ];
+  const tools = [];
   return (
     <div className="tools-main">
       <Title title="Tools" />

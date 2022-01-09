@@ -4,7 +4,7 @@ import Nav from "./Component/Nav/Nav";
 import About from "./Component/About/About";
 import Project from "./Component/Project/Project";
 import Skills from "./Component/Skills/Skills";
-import Tools from "./Component/Tools/Tools";
+
 import Contacts from "./Component/Contacts/Contacts";
 
 function App() {
@@ -18,8 +18,6 @@ function App() {
       <Project />
 
       <Skills />
-
-      <Tools />
 
       <Contacts />
     </div>
