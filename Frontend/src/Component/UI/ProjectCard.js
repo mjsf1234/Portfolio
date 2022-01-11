@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
   return (
     <div className="projectcard-main">
       <div className="projectcard-img">
-        <img src={props.image}></img>
+        <img src={props.image} alt="logo"></img>
       </div>
       <div className="projectcard-content">
         <span className="heading">{props.name}</span>

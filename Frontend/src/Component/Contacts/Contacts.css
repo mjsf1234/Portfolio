@@ -2,9 +2,11 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   background-color: white;
+  text-align: center;
 }
 .contacts-grid {
   display: grid;
+  margin-bottom: 2rem;
   grid-template-columns: repeat(3, 1fr);
 }
 .contact-link {

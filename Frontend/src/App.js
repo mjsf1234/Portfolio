@@ -6,19 +6,17 @@ import Project from "./Component/Project/Project";
 import Skills from "./Component/Skills/Skills";
 
 import Contacts from "./Component/Contacts/Contacts";
+import Internships from "./Component/Internships/Internships";
 //d
 function App() {
   return (
     <div className="App">
-      <Home />
-
       <Nav />
-
+      <Home />
       <About />
+      <Internships />
       <Project />
-
       <Skills />
-
       <Contacts />
     </div>
   );

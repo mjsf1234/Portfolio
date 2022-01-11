@@ -3,10 +3,10 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-main">
+    <div className="about-main" id="about">
       <Title title="About" />
       <div className="content">
-        <img src="/Images/profile-image.jpg"></img>
+        <img src="/Images/profile-image.jpg" alt="logo"></img>
 
         <div className="about-title">
           <h2>

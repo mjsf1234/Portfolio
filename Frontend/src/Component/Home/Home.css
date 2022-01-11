@@ -6,8 +6,9 @@
   width: 100%;
   text-align: center;
   margin: 0px;
+  padding-top: 40vh;
 }
 .home-heading {
-  margin: auto;
+  margin: 0;
   color: white;
 }

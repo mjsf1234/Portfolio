@@ -1,0 +1,36 @@
+.form-main {
+  width: 25rem;
+  padding: 2rem 2.5rem 1rem 2.5rem;
+  margin: auto;
+  background-color: rgb(36, 25, 25);
+  box-sizing: border-box;
+  box-shadow: 0 1px 8px;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.form-field {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  height: 2rem;
+}
+.form-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.form-title label {
+  color: white;
+}
+.form-message {
+  text-align: center;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  height: 6rem;
+}
+.invalid {
+  border-color: red;
+}

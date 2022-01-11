@@ -6,7 +6,7 @@ import Card from "../UI/Card";
 export const Tools = () => {
   const tools = [];
   return (
-    <div className="tools-main">
+    <div className="tools-main" id="tools">
       <Title title="Tools" />
       {/* <h1 className="tools-title">Tools</h1>
       </Title> */}

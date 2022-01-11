@@ -1,15 +1,17 @@
 .title {
-  background-color: #008073;
+  /* background-color: #008073; */
+  background-color: black;
   padding: 30px 40px;
   margin-bottom: 40px;
   line-height: 1rem;
 }
 .title-heading {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: green;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 2.6rem;
   margin: 0;
-  text-align: left;
+  text-align: Center;
   font-family: "Raleway", sans-serif;
 }

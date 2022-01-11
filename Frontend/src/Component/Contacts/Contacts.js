@@ -4,9 +4,10 @@ import "./Contacts.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import Form from "../Form/Form";
 const Contacts = () => {
   return (
-    <div className="contacts-main">
+    <div className="contacts-main" id="contacts">
       <Title title="Contacts" />
 
       <div className="contacts-grid">
@@ -26,6 +27,7 @@ const Contacts = () => {
           </a>
         </div>
       </div>
+      <Form />
     </div>
   );
 };
