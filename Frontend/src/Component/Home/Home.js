@@ -1,10 +1,5 @@
 import "./Home.css";
-import {
-  Section,
-  SectionText,
-  SectionTitle,
-  LeftSection,
-} from "../Nav/NavStyle";
+import { Section, SectionText, SectionTitle, LeftSection } from "../UI/Style";
 
 const Home = () => {
   return (
@@ -12,7 +7,7 @@ const Home = () => {
       <LeftSection>
         <SectionTitle>
           Welcome to <br />
-          My portflio
+          My portfolio
         </SectionTitle>
         <SectionText>
           This is my portfolio where you can see my work and interships and can
