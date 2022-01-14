@@ -5,11 +5,13 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Form from "../Form/Form";
+import { Section, SectionTitle ,SectionDivider} from "../UI/Style";
 const Contacts = () => {
   return (
-    <div className="contacts-main" id="contacts">
-      <Title title="Contacts" />
+    <Section className="contacts-main" id="contacts">
 
+      <Title title="Contacts" />
+      <Form />
       <div className="contacts-grid">
         <div className="contact-link">
           <a href="https://github.com/mjsf1234">
@@ -27,8 +29,8 @@ const Contacts = () => {
           </a>
         </div>
       </div>
-      <Form />
-    </div>
+     
+    </Section>
   );
 };
 export default Contacts;

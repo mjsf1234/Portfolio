@@ -1,9 +1,9 @@
 import Title from "../UI/Title";
 import "./About.css";
-
+import { Section, SectionTitle ,SectionDivider} from "../UI/Style";
 const About = () => {
   return (
-    <div className="about-main" id="about">
+    <Section className="about-main" id="about">
       <Title title="About" />
       <div className="content">
         <img src="/Images/profile-image.jpg" alt="logo"></img>
@@ -14,7 +14,7 @@ const About = () => {
           </h2>
         </div>
       </div>
-    </div>
+    </Section>
   );
 };
 export default About;
