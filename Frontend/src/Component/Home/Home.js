@@ -11,7 +11,7 @@ const Home = () => {
         </SectionTitle>
         <SectionText>
           This is my portfolio where you can see my work and interships and can
-          contacts me
+          contacts me.
         </SectionText>
       </LeftSection>
     </Section>
